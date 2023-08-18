@@ -3,3 +3,54 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #141516;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: #2e3031;
+    border-radius: .5rem;
+    caret-color: #6e9ef8;
+}
+
+@media screen and (min-width: 1024px) {
+    .input-container {
+        width: 60%;
+    }
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 4rem);
+}
+
+.button-container button {
+    border: none;
+    color: #c0d4fa;
+    font-size: 1.2rem;
+    padding: .8rem;
+    border-radius: 30%;
+    background-color: #242424;
+    transition: .4s;
+}
+
+.button-container button:active {
+   background-color: #c0d4fa;
+   border-radius: 20%;
+   color: #242424;
+}
+
+.button-container .btn-AC {
+    background-color: #106410;
+}
+
+.button-container .operations {
+    background-color: #0466b6;
+}
+
+.button-container .equal {
+    background-color: #083485;
+}
