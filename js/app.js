@@ -9,6 +9,12 @@ const result = () => {
     screen.value = display 
 }
 
+const deletedNumber = () => {
+    const value = screen.value
+    if (value.length > 0) {
+        screen.value = value.slice(0, -1)
+    }
+}
 
 
 
