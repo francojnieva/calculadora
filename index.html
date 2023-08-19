@@ -19,33 +19,33 @@
 <body>
     <main class="">
         <div class="container pt-4 text-center input-container">
-            <input type="text" class="w-100 p-4 fs-1 text-end text-white-50" autocomplete="off" id="screen">
+            <input type="text" class="w-100 p-4 fs-1 text-end text-white-50" readonly autocomplete="off" id="screen">
         </div>
         <div class="button-container my-5 text-center gap-2 gap-md-3 justify-content-center">
-            <button class="btn-AC">AC</button>
+            <button onclick="clearScreen()" class="btn-AC">AC</button>
             <button class=""></button>
+            <button onclick="addValue('**')" class="operations">^</button>
+            <button onclick="addValue('/')" class="operations">/</button>
+
+            <button onclick="addValue('7')" class="">7</button>
+            <button onclick="addValue('8')" class="">8</button>
+            <button onclick="addValue('9')" class="">9</button>
+            <button onclick="addValue('*')" class="operations">x</button>
+
+            <button onclick="addValue('4')" class="">4</button>
+            <button onclick="addValue('5')" class="">5</button>
+            <button onclick="addValue('6')" class="">6</button>
+            <button onclick="addValue('-')" class="operations">-</button>
+
+            <button onclick="addValue('1')" class="">1</button>
+            <button onclick="addValue('2')" class="">2</button>
+            <button onclick="addValue('3')" class="">3</button>
+            <button onclick="addValue('+')" class="operations">+</button>
+
+            <button onclick="addValue('0')" class="">0</button>
             <button class=""></button>
-            <button class="operations">/</button>
-
-            <button class="">7</button>
-            <button class="">8</button>
-            <button class="">9</button>
-            <button class="operations">X</button>
-
-            <button class="">4</button>
-            <button class="">5</button>
-            <button class="">6</button>
-            <button class="operations">-</button>
-
-            <button class="">1</button>
-            <button class="">2</button>
-            <button class="">3</button>
-            <button class="operations">+</button>
-
-            <button class="">0</button>
-            <button class=""></button>
-            <button class="">.</button>
-            <button class="equal">=</button>
+            <button onclick="addValue('.')" class="">.</button>
+            <button onclick="result()" class="equal">=</button>
         </div>
     </main>
     <footer class="text-center text-white-50">
