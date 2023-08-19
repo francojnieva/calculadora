@@ -1,0 +1,2 @@
+# Calculadora 
+Esta es una calculadora que te permite realizar operaciones básicas, como suma, resta, multiplicación, división y potenciación. La calculadora ha sido desarrollada utilizando HTML, CSS y JavaScript para brindar una experiencia funcional y visualmente agradable.
